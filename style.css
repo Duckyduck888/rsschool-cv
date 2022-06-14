@@ -1,1 +1,131 @@
 style.css
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 1024px;
+    min-width: 600px;
+    margin:0;
+    padding:0;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+header {
+    background-color: #414CF1;
+    max-height: 250px;
+}
+.header-color {
+    color:antiquewhite;
+    text-align: right;
+    position: relative;
+    right: 230px;
+    top:50px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 130%;
+}   
+.white-photo {
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+    border-radius: 50%;
+    border-color: antiquewhite;
+    border-width: 10px;
+    border-style: solid;
+}    
+
+.section-info {
+    background-color: #34495E;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    min-height: 100vh;
+    width:20%; 
+    position: absolute;
+    top:270px;  
+    text-align: center; 
+    
+
+}
+ul {
+    display: block;
+    list-style-type:circle;
+    text-align: left;
+}
+.about-me {
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.english {
+    text-align: left;
+    padding-left: 8px;
+}
+.section-edu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    max-width:800px;  
+    min-height: 100hv;
+    color: #040734;
+    position:absolute;
+    left: 500px;
+    top: 400px;  
+}
+p {
+    text-align: left;
+}
+.section-skills {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    width: 150px;  
+    min-height: 100hv;
+    color: #040734;
+    position:absolute;
+    left: 1200px;
+    top: 400px;  
+}
+
+.section-code {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    width: 150px;  
+    min-height: 100hv;
+    color: #040734;
+    position:absolute;
+    left: 500px;
+    top: 600px;   
+}
+.section-projects {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    width: 150px;  
+    min-height: 100hv;
+    color: #040734;
+    position:absolute;
+    left: 1200px;
+    top: 600px;      
+}
+
+.nav-list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:antiquewhite;
+    position: absolute;
+    left: 300px;
+    top: 100px; 
+    list-style: none; 
+}
+.nav-item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+.nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    color: antiquewhite;
+    padding-top: 3px; 
+    text-decoration: none; 
+}
+html {
+    scroll-behavior: smooth; 
+  }
